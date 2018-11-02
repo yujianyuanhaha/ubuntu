@@ -1,5 +1,5 @@
-Nov 2, 2018
-A personal note about how to install Ubuntu 18.04 on MacBookPro High Sierra 10.3(Mid2015)
+Nov 2, 2018  
+A personal note about how to install __Ubuntu 18.04__ on __MacBookPro High Sierra 10.3(Mid2015)__.  
 
 # Motivation
 It is a waste of time to do the tricky way install linux-based software on mac, sometimes it work temporary, most of time it bites.  
@@ -18,6 +18,8 @@ Some essential link:
 ``` shell
     sudo add-apt-repository ppa:rodsmith/refind && sudo apt update && sudo apt install refind && sudo refind-mkdefault
 ```
+
+
 
 # Several aspects not mentioned in the video
 1. ```Disk utility``` cannot patrition the new Ubuntu partition request, error like __not enough APFS space to continue ...__  
