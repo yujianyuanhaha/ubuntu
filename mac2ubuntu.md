@@ -1,3 +1,8 @@
+# Bugs
+Ubuntu18.04 on MacbookPro Mid2015 would stuck for minitues for some reason.
+
+
+
 # Hardware
 
 ## Sleep
@@ -12,6 +17,11 @@ Would fail on Airpod and Beats, use a wired one.
 ## USB to Gigabyte Internet Port
 TODO
 
+# Backup
+TODO
+
+# 
+
 # VPN
 Pulse still works on Ubuntu 18.04, refer to [VPN virginia tech](https://vt4help.service-now.com/sp?id=kb_article&sys_id=d5496fca0f8b4200d3254b9ce1050ee5#linux) for more.
 1. download newest version ` ps-pulse-linux-9.0r2.0-b819-ubuntu-debian-64-bit-installer.deb
@@ -19,6 +29,10 @@ Pulse still works on Ubuntu 18.04, refer to [VPN virginia tech](https://vt4help.
 2. install by `sudo dpkg -i PACKAGE_NAME`
 3. install dependency as prompts
 4. launch GUI, follow steps as [VPN virginia tech](https://vt4help.service-now.com/sp?id=kb_article&sys_id=d5496fca0f8b4200d3254b9ce1050ee5#linux).
+
+
+# SSH and ARC access
+[ssh setup tutorial](https://github.com/yujianyuanhaha/blog/blob/master/source/_posts/tutorial/ssh.md)
 
 
 # Copy and Paste in terminal
@@ -34,19 +48,19 @@ Mac OS | Ubuntu
 ------------ | -------------
 Microsoft Office | (Online) Google Doc
 Evernote | Online
-iCloud (Notes, Reminder, Calender, Photos, Drive) | Online, Keep Google
+iCloud (Notes, Reminder, Calender, Photos, Drive) | Online, Keep Google, __Tasks Google iOS__
 Quick Pen Drawings of Notes/Evernote | Keep Google
 Professional Slides Drawing | Draw Google/ Libre Draw
 Google Drive | Online
-iThoughtX (MindMap) | Online Coogle
+iThoughtX (MindMap) | Online Coogle/__Google Task__
 Mail | Chrome plugin Checker Plus/ Online/ Thunderbird
 Github | GitKraken
 cmd+shift+ G of Finder | Commands `grep` `find`/ cmd
 Screenshoot | -
 Pulse Secure (VPN) | Pulse Secure .deb
 Preview | Document Viewer/ Foxit
-Latex | Online overleaf/ VS Code
-LatexIt | -
+TexMaker/ Latex | Online overleaf/ TexMaker/ VS Code
+LatexIt | LibreMath+ TexMath plugin
 Matlab | ssh Matlab on ARC 
 
 # shortkey map
@@ -97,3 +111,7 @@ remove block comment | __Ctr+5__
 
 
 ## VS Code default
+function  | key
+------------ |-------------
+New window | Ctr + Shift + N
+Open Folder | Ctr+K Ctr+O
