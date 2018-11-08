@@ -3,7 +3,9 @@ OS: 18.04
 
 Essential command tools:
 1. vim
-2. git  
+2. git
+3. make
+4. clang  
 
 Optional command tools:
 1. openssh-server, for set up ssh.
@@ -40,7 +42,7 @@ Some optional but useful apps:
 # Wifi of eduroam
 There need some special setup to connect to ```eduroam``` wifi, take Vriginia Tech as example. Follow the [offical setup](https://vtluug.org/wiki/Virginia_Tech_Wifi) by vtluug. It is bit too long, to be breif, follow the picture below:  
 ![](wifi.png)  
-while for CA certificate: Select ```/path/to/GlobalSign_Root_CA_-_R3.pem``` via the file picke
+while for CA certificate: Select ```/etc/ssl/certs/GlobalSign_Root_CA_-_R3.pem``` via the file picke
 
 
 
