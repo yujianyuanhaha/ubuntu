@@ -1,9 +1,20 @@
 # Bugs
-Ubuntu18.04 on MacbookPro Mid2015 would stuck for minitues for some reason.
+## memory-consuming chrome
+Ubuntu18.04 on MacbookPro Mid2015 would stuck for minitues for some reason. High likely the __chrome eaily eat up all 8G memory__. Prefer command as much as you can.  
+Several Solution from [refer](https://askubuntu.com/questions/817966/google-chrome-will-take-up-my-memory-to-the-point-where-it-causes-my-computer-to/817995)
+    * increase RAM  
+    * increase swap by [gparted]()  
+    * frequent `Shift+Esc` to kill tab  
+    * [chrome plugin Great Susper](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en)
 
 
 
 # Hardware
+
+## Screenshot
+
+## workspace
+
 
 ## Sleep
 Do __super+L__ to lock before close the lid, else the system would crash.
